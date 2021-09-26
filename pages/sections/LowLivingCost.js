@@ -43,7 +43,7 @@ import { IoIosArrowRoundDown } from 'react-icons/io';
 
 import LowModal from '../../components/LowModal';
 const bg = {
-    backgroundImage: 'url("/images/miawaki forest.jpg")',
+    backgroundImage: 'url("/images/Tree house-min.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

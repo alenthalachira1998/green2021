@@ -14,6 +14,8 @@ import Menuu from "../components/Menuu";
 import ImprovedQualityOfSpace from "./sections/ImprovedQualitySpace";
 import LowLivingCost from "./sections/LowLivingCost";
 import FooterandLocation from "./sections/FooterandLocation";
+import DesignFeatures from "./sections/DesignFeatures";
+import GoGreenPolicy from "./sections/GoGreenPolicy";
 export default function Home() {
 
   return (
@@ -71,7 +73,14 @@ export default function Home() {
               <LowLivingCost/>
               </div>
               <div className="section">
+              <DesignFeatures/>
+              </div>
+           
+              <div className="section">
                 <BuildQuality />
+              </div>
+              <div className="section">
+                <GoGreenPolicy/>
               </div>
               <div className="section">
               <About/>

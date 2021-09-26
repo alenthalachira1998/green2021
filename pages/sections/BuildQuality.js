@@ -34,11 +34,13 @@ const BuildQuality = () => {
                             <div className="text-white lg:text-xl pb-6 text-base max-w-xl lg:text-center lg:font-normal flex flex-col justify-center lg:items-center "><h1 className="lg:pb-6 pb-2  text-lg lg:text-4xl"> Build Quality</h1> Build using high quality materials and workmanship
                                   
                                       <Link href="/sections/MaterialSpecifications">
-          <a className="hover:green">  MATERIAL SPECIFICATION</a>
-        </Link>  Same as of other <br/>“design features and all” </div>
+          <a className="hover:green">  Material Specifications</a>
+        </Link>  Same as of other “design features and all”.</div>
 
-                                <div className="self-start lg:self-center">
-                                   <BuildModal/>
+                                <div className="self-start lg:self-center  text-white text-xl lg:text-2xl border-b-2">
+                                <Link href="/sections/MaterialSpecifications">
+          <a className="hover:green">  View More</a>
+        </Link>  
                          
                                 </div>
 
