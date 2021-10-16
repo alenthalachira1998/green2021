@@ -21,7 +21,7 @@ const GoGreenPolicy = () => {
             <div className="h-screen lg:h-screen relative" style={bg}>
                  
       
-                <div className="absolute  bg-black h-full  lg:h-screen w-full opacity-60 flex flex-col items-center justify-center"></div>
+                <div className="absolute  bg-black h-full  lg:h-screen w-full opacity-40 flex flex-col items-center justify-center"></div>
               
                  
                 <div className="relative  ">

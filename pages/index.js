@@ -1,6 +1,7 @@
 import About from "./sections/About";
 import MainHome from "./sections/MainHome";
 import Head from "next/head";
+import Link from 'next/link'
 
 import BuildQuality from "./sections/BuildQuality";
 import ElegantResortLiving from "./sections/ElegantResortLiving";
@@ -21,7 +22,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Greenest ONE</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="absolute   lg:top-4 w-full flex justify-center z-10">
@@ -35,12 +36,15 @@ export default function Home() {
         <Menuu />
         <div className="flex text-3xl z-10  lg:text-5xl text-gray-200 ">
           {" "}
+          
           <div className="hover:text-pink-800 hover:animate-ping">
           <AiOutlineInstagram />
           </div>
-          <div className="hover:text-blue-400 hover:animate-ping">
+          <Link href="https://www.facebook.com/GreenestBuildings/">
+          <a className="hover:text-blue-400 hover:animate-ping">
           <AiOutlineFacebook />
-          </div>
+          </a>
+          </Link>
         </div>
       </div>
 

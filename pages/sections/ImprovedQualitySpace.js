@@ -20,7 +20,7 @@ const ImprovedQualityOfSpace = () => {
             <div className="h-screen lg:h-screen relative" style={bg}>
                  
       
-                <div className="absolute  bg-black h-screen  lg:h-screen w-screen opacity-60 flex flex-col items-center justify-center"></div>
+                <div className="absolute  bg-black h-screen  lg:h-screen w-screen opacity-40 flex flex-col items-center justify-center"></div>
               
                  
                 <div className="relative  ">

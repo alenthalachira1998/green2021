@@ -28,7 +28,7 @@ export default function ImprovedModal(props) {
         onClick={openModal}
         className="text-center text-white text-xl lg:text-2xl border-b-2"
       >
-        View more
+        View More
       </button>
 
 
@@ -94,17 +94,17 @@ export default function ImprovedModal(props) {
 
                   <div className="grid sm:gap-4 sm:grid-cols-3 md:grid-cols-3  grid-cols-2  p-2 lg:p-3   lg:gap-8  justify-center">
 
-                    <div className="    flex justify-center items-center flex-col  text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-yellow-500 font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20   object-cover  lg:w-36 lg:h-36" src="../images/IGBC platinum.jpg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">IGBC Platinum <br/>Certification</p></div>
-                    <div className="    flex justify-center items-center flex-col  text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-yellow-500 font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/day.jpg" ></img><p className="  text-xs md-text sm text-center break-normal lg:text-sm"> Excellent <br/>Daylighting</p></div>
-                    <div className="    flex justify-center items-center flex-col  text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-yellow-500 font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/air.jpg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">Improved Air  <br /> Quality</p></div>
-                    <div className="    flex justify-center items-center flex-col  text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-yellow-500 font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/smart securty.jpg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">Smart <br /> Secutity  </p></div>
-                    <div className="    flex justify-center items-center flex-col  text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-yellow-500 font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/quality.jpg" ></img><p className=" pt-2 text-xs md-:ext sm text-center break-normal lg:text-sm">External Quality <br/>Assurance</p></div>
-                    <div className="    flex justify-center items-center flex-col  text-transparent bg-clip-text bg-gradient-to-br from-green-500 to-yellow-500 font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/bio.jpeg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">Biophilic Design <br /> Approch </p></div>
+                    <div className="    flex justify-center items-center flex-col  text-white font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20   object-cover  lg:w-36 lg:h-36" src="../images/IGBC platinum.jpg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">IGBC Platinum <br/>Certification</p></div>
+                    <div className="    flex justify-center items-center flex-col  text-white font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/day.jpg" ></img><p className="  text-xs md-text sm text-center break-normal lg:text-sm"> Excellent <br/>Daylighting</p></div>
+                    <div className="    flex justify-center items-center flex-col  text-white font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/air.jpg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">Improved Air  <br /> Quality</p></div>
+                    <div className="    flex justify-center items-center flex-col  text-white font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/smart securty.jpg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">Smart <br /> Secutity  </p></div>
+                    <div className="    flex justify-center items-center flex-col  text-white font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/quality.jpg" ></img><p className=" pt-2 text-xs md-:ext sm text-center break-normal lg:text-sm">External Quality <br/>Assurance</p></div>
+                    <div className="    flex justify-center items-center flex-col  text-white font-semibold hover:transform scale-75 md:mt-4 lg:mt-8 mb-2 "> <img className=" shadow-xl max-w-4xl rounded-full h-20 w-20 object-cover  lg:w-36 lg:h-36" src="../images/bio.jpeg" ></img><p className=" pt-2 text-xs md:text sm text-center break-normal lg:text-sm">Biophilic Design <br /> Approch </p></div>
 
                     <div className=" sm:mt-0 mt-2">
                        <button
                     type="button"
-                    className="inline-flex justify-center left-10 sm:left-0 sm:ml-10  mb-4  px-4 py-2 text-xs md:text-sm font-medium  text-green-500 border border-transparent bg-white bg-opacity-10  shadow-14xl relative z-2  border-opacity-30 border-r-0 border-b-0 backdrop-filter backdrop-blur-xl rounded-full hover:opacity-70 focus:outline-none"
+                    className="inline-flex justify-center left-10 sm:left-0 sm:ml-10  mb-4  px-4 py-2 text-xs md:text-sm font-medium  text-white border border-transparent bg-white bg-opacity-10  shadow-14xl relative z-2  border-opacity-30 border-r-0 border-b-0 backdrop-filter backdrop-blur-xl rounded-full hover:opacity-70 focus:outline-none"
                     onClick={closeModal}
                   >
                     Got it!

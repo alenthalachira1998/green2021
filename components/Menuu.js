@@ -89,9 +89,9 @@ import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import * as MdIcons from 'react-icons/md';
 import * as VscIcons from 'react-icons/vsc';
-
 import { IconContext } from 'react-icons';
 import Link from 'next/link'
+import ContactModal from './ContactModal';
 
 function Menuu() {
   const [sidebar, setSidebar] = useState(false);
@@ -104,14 +104,14 @@ function Menuu() {
      
         <div className="z-20">
         <div className="nav-bar  relative">
-          <div className='text-4xl text-white'>
+          <div className='text-4xl text-white  cursor-pointer'>
           <Link href='#' >
             <VscIcons.VscMenu onClick={showSidebar} />
           </Link>
           </div>
         </div>
         <nav className={sidebar ? 'nav-menu active ' : '  nav-menu'}>
-          <ul className='nav-menu-items' onClick={showSidebar}>
+          <ul className='nav-menu-items  cursor-pointer' onClick={showSidebar}>
         
             <li className='navbar-toggle text-white text-4xl'>
            
@@ -127,26 +127,21 @@ function Menuu() {
             
                 <li>
                 <Link href="/">
-           <span className="nav-text">
+           <span className="nav-text cursor-pointer">
            <a >Home</a>
           </span>
         </Link> <Link href="/">
-       <span className="nav-text">
-           <a>About</a>
-        </span>
-       </Link> <Link href="/">
-       <span className="nav-text">
+       <span className="nav-text  cursor-pointer">
            <a>Projects</a>
         </span>
        </Link>
-     <Link href="/">
-     <span className="nav-text">
+     <Link href="/Blogshome">
+     <span className="nav-text  cursor-pointer">
            <a>Blog</a>
         </span>
 
-       </Link> <Link href="/">
-       <span className="nav-text">   <a>Contact</a></span></Link>
-                </li>
+       </Link> 
+       <span className="nav-text  cursor-pointer">   <ContactModal />   </span></li>
             
           
           </ul>
